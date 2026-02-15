@@ -85,13 +85,34 @@ Motion Detection → Validation → Cancel Window → GPS Fetch → GSM SMS → 
 ---
 
 ## 📁 Repository Structure
+
 LifeGuard-Band/
 │
-├── firmware/ # ESP32 core program
-├── test_modules/ # Individual hardware test codes
-├── hardware/ # Component list & pin connections
-├── docs/ # Architecture & workflow documentation
-├── software/ # Recorder & future dashboard modules
+├── firmware/
+│   └── lifeguard_core/
+│       └── lifeguard_core.ino     # Main ESP32 program
+│
+├── test_modules/
+│   ├── button_test.ino
+│   ├── buzzer_test.ino
+│   ├── gps_test.ino
+│   ├── gsm_test.ino
+│   ├── led_test.ino
+│   └── mpu_test.ino               # Individual hardware test codes
+│
+├── hardware/
+│   ├── components_list.md
+│   └── pin_connections.md         # Circuit documentation
+│
+├── docs/
+│   ├── system_architecture.md
+│   ├── workflow.md
+│   └── cost_analysis.md
+│
+├── software/
+│   ├── recorder.py
+│   └── recordings/
+│
 ├── README.md
 └── .gitignore
 
