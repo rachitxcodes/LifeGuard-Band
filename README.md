@@ -86,6 +86,7 @@ Motion Detection → Validation → Cancel Window → GPS Fetch → GSM SMS → 
 
 ## 📁 Repository Structure
 
+```
 LifeGuard-Band/
 │
 ├── firmware/
@@ -115,6 +116,8 @@ LifeGuard-Band/
 │
 ├── README.md
 └── .gitignore
+
+```
 
 ---
 
