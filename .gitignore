@@ -1,0 +1,6 @@
+*.log
+*.tmp
+*.bin
+.vscode/
+__pycache__/
+recordings/
