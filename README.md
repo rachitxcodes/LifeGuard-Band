@@ -116,7 +116,6 @@ LifeGuard-Band/
 │
 ├── README.md
 └── .gitignore
-
 ```
 
 ---
